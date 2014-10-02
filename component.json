@@ -4,11 +4,14 @@
   "description": "",
   "version": "0.0.0",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "moment/moment": "*"
+  },
   "development": {},
   "license": "MIT",
   "main": "index.js",
   "scripts": [
-    "index.js"
+    "index.js",
+    "lib/falsey.js"
   ]
 }

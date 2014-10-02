@@ -1,3 +1,5 @@
+var falsey = require('./lib/falsey');
+
 module.exports = function() {
-    return true;
+    return !falsey();
 };
